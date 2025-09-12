@@ -27,6 +27,7 @@ export default function Button({
         className
       )}
       ref={ref}
+      {...props}
     >
       {children}
     </button>

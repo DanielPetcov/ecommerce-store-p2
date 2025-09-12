@@ -13,7 +13,7 @@ export interface Category {
 export interface Product {
   id: string;
   category: Category;
-  naem: string;
+  name: string;
   price: string;
   isFeatured: boolean;
   size: Size;

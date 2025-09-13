@@ -10,7 +10,7 @@ export default async function HomePage() {
   const products = await getProducts({
     isFeatured: true,
   });
-  const billboard = await getBillboard("");
+  const billboard = await getBillboard("b21d664e-ea8a-4e2f-b6f5-0ac8f9a8f164");
   return (
     <Container>
       <div className="space-y-10 pb-10 ">

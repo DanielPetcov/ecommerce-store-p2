@@ -26,6 +26,7 @@ export default function Button({
         transition`,
         className
       )}
+      disabled={disabled}
       ref={ref}
       {...props}
     >
